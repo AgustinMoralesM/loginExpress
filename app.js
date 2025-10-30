@@ -20,10 +20,10 @@ const connection = mysql.createPool({
 
 // --- Rutas ---
 app.get('/', (req, res) => {
-  res.send('Backend de Mallplaza funcionando correctamente');
+res.send('Backend de Mallplaza funcionando correctamente');
 });
 
-// 🔐 LOGIN (POST para seguridad)
+//  LOGIN (POST para seguridad)
 app.post('/login', async (req, res) => {
   const { usuario, clave } = req.body;
 
