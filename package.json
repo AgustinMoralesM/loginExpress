@@ -1,27 +1,16 @@
 {
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "express-session": "^1.18.2",
-    "mongoose": "^8.19.2",
-    "mysql2": "^3.15.3"
-  },
   "name": "loginexpress",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend Login Mallplaza",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AgustinMoralesM/loginExpress.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AgustinMoralesM/loginExpress/issues"
-  },
-  "homepage": "https://github.com/AgustinMoralesM/loginExpress#readme"
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^8.23.0"
+  }
 }
